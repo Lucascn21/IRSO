@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char caracter ='*';
+  printf("\n %3c",caracter);
+  printf("%4c",caracter);
+  
+  
+  
+  system("PAUSE");	
+  return 0;
+}
