@@ -34,8 +34,10 @@ fflush(stdin);
 
 if(superf1>superf2)
 	printf("\nEl triangulo primero es mayor");
-	else 
-		printf("\nEl triangulo segundo es mayor");
+		if(superf1==superf2)
+		printf("\n son iguales");
+        	else 
+printf("\nEl triangulo segundo es mayor");
 	
 
 

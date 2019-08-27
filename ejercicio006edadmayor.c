@@ -3,19 +3,26 @@
 
 int main () {
 	
-	int edad;
+int edad;
 	
 printf("Ingrese su edad \n");
 fflush(stdin);
-scanf("%d", edad);
+scanf("%d",& edad);
 
-if(edad>=18)
+if(edad>=18){
+
 	printf("\nEres mayor de edad");
-else printf("\nNo eres mayor de edad");
+	fflush(stdin);
+}
+else {
+
+	printf("\nNo eres mayor de edad");
+	fflush(stdin);
+}
 
 
 
 printf("\n \n");
-system("pause");
+system("Pause");
 return 0;
 }

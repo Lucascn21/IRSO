@@ -14,6 +14,8 @@ int main(){
 	
 	posibleRaiz1=(-b+sqrt(pow(b,2))-4*a*c)/2*a;
 	posibleRaiz2=(-b-sqrt(pow(b,2))-4*a*c)/2*a;
+	printf("%f \n %f",posibleRaiz1, posibleRaiz2);
+	fflush(stdin);
 	if (usuarioIngresaRaiz == posibleRaiz1 || usuarioIngresaRaiz == posibleRaiz2){
 	    printf("\nes posible raiz");
 	    fflush(stdin);
