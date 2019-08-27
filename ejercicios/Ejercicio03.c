@@ -54,9 +54,7 @@ printf("Ingrese un entero se vera si pertenece al intervalo 0-100 \n");
 fflush(stdin);
 scanf("%d",& enteroIngresado);
 if(enteroIngresado<=100 && enteroIngresado >=0)printf("El numero ingresado pertenece al intervalo [0-100]");
-else printf("El numero ingresado no pertenece al intervalo [0-100]");
-
-
+	else printf("El numero ingresado no pertenece al intervalo [0-100]");
 fflush(stdin);
 
 
@@ -64,5 +62,4 @@ fflush(stdin);
 printf("\n\n\n");
 system("pause");
 return 0;
-
 }
