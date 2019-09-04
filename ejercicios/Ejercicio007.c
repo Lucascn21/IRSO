@@ -12,7 +12,7 @@ scanf("%d",& nota1);
 
 
 printf("\n Ingrese segunda nota ");
-fflush(stdin);	
+fflush(stdin);	|
 scanf("%d",& nota2);
 
 printf("\n Ingrese tercera nota ");
@@ -32,7 +32,7 @@ if(promedio>100){
 	else if(promedio>=71)printf("Nota = B");
 	else if(promedio>=51)printf("Nota = C");
 	else if(promedio>=31)printf("Nota = D");
-	else if(promedio>=0)printf("Nota = E");
+	else printf("Nota = E");
 fflush(stdin); //por si mas  adelante refactorizo y/o agrego cosas
 
 
