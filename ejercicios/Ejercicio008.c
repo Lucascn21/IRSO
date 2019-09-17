@@ -3,7 +3,7 @@
 
 int main () {
 	
-	int numero;
+int numero;
 int numeroIngresado1, numeroIngresado2;
 char charIngresado;
 printf("Aries 1");
@@ -22,7 +22,7 @@ printf("\nPiscis 12");
 
 printf("\n Ingrese numero correspondiente:  ");
 fflush(stdin);	
-scanf("%d",& numero);
+scanf("%d %d %d",& numero);
 
 	printf("\n");
 	
@@ -32,7 +32,7 @@ scanf("%d",& numero);
 	         else if(numero %4 == 3)printf("Aire ");					 	
                 	else if(numero %4 == 4)printf("Agua");	
                      	 else printf("numero no valido");						 	
-	
+
 					 
 fflush(stdin);
 printf("\n");

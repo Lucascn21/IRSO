@@ -40,6 +40,10 @@ int main () {
 		}	
 	}else printf("anio no valido");
 
+
+
+
+
 fflush(stdin);
 printf("\n\n\n");
 system("pause");

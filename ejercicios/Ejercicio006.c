@@ -26,7 +26,6 @@ if(suma>9999){
 
 
 
-
 printf("\n\n\n");
 system("pause");
 return 0;
