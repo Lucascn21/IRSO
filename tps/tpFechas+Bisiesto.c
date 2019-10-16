@@ -27,7 +27,7 @@ int main () {
 	printf("\n");
 	fflush(stdin);
 	
-	//valido año
+	//valido año debe ser entre 4 cifras
 	if(anio<10000&&anio>999){
 		printf("anio correcto,");
 		switch(ultimDos){

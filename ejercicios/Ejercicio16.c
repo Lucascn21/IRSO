@@ -44,7 +44,6 @@ int main () {
 	for(int i=1; i<=num; i++){
 		printf(" %d ", cant);
 		cant*=2;}
-
 	system("pause");
 	system("cls");
 

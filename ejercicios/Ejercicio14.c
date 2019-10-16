@@ -1,7 +1,7 @@
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <stdbool.h>
 
 //5) leer Nros hasta que aparezca el 0
 //visualizar total de nros significativos
@@ -53,13 +53,6 @@ while (cont <5 ){
 		cont ++;
 		printf("%d %d", num1, num2);
 	}
-
-
-
-
-
-
-
 
 
 
