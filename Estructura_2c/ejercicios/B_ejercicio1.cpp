@@ -20,7 +20,6 @@ int main(){
 }
 
 
-//Procedimiento que 
 void contarPPares(int &cont){ 
 	int num;
 	printf("Dame un numero entero positivo ");
