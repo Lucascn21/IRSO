@@ -1,5 +1,3 @@
-
-
 //Una función que reciba dos enteros a y b. Que devuelva a elevado a la b.
 #include <stdio.h>
 #include <stdlib.h>

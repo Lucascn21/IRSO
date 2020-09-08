@@ -4,22 +4,25 @@
 
 
 
-void leerDevolver();
+void leerDevolver(int &entero);
 
 
 
 int main(){
-	leerDevolver();
+	int entero=0;
+	leerDevolver(entero);
+	printf("\nentero vale %d", entero);
 	return 0;
 }
 
 
 
 
-void leerDevolver(){	
+void leerDevolver(int &entero){	
 	int num;
 	printf("Ingresar numero entero:\n");
     scanf("%d", &num);
 	printf("El numero ingresado es: %d",num);
+	entero=num;
 }
 

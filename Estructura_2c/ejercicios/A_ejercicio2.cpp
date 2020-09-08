@@ -5,22 +5,19 @@
 #include <stdlib.h>
 
 
-
-
-void sumar(int a, int b);
-
-
+void sumar(int a, int b, int &res);
 
 
 int main(){
-	sumar(1,7);
+	int res=0;
+	sumar(1,7,res);
+	printf("%d",res);
 	return 0;
 }
 
 
+void sumar(int a, int b, int &res){
+	res=a+b;
+};
 
-void sumar(int a, int b){
-int	suma=a+b;
- printf("La suma da %d",suma);
-}
 

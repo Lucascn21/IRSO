@@ -1,4 +1,3 @@
-
 //Idem ejercicio anterior pero con un procedimiento.
 #include <stdio.h>
 #include <stdlib.h>
