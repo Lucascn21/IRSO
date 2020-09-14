@@ -14,6 +14,7 @@ int main(){
 	pedirImpar(num);
 	pedirImpar(num2);
 	if(num!=num2)printf("el mayor es %d\n",determinarMayor(num, num2));
+	else printf("Son iguales\n");
 	pedirImpar(num);
 	pedirImpar(num2);
 	if(num!=num2)printf("el mayor es %d",determinarMayor(num, num2));
@@ -26,9 +27,9 @@ void pedirImpar(int &num){
    	scanf("%d", &num);
    	fflush(stdin);
 	while(num%2==0){
-	printf("No era un impar, intenta otra vez: ");
-   	scanf("%d", &num);
-   	fflush(stdin);
+		printf("No era un impar, intenta otra vez: ");
+   		scanf("%d", &num);
+   		fflush(stdin);
 	}
 	
 }
